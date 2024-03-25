@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  wallet-check:
+    container_name: wallet-checker
+    build: 
+      context: scripts
+      dockerfile: Dockerfile.check_wallet
+    command: npx ts-node checkWallet.ts
