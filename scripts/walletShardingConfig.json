@@ -1,0 +1,10 @@
+{
+    "mainWalletSecretKey": [],
+    "sendToWalletPublicKeys": [
+        "YoUrWaLlEtSpUbLiVaDdReSsYoUrWaLlEtSpUbLiVaDdReSs"
+    ],
+    "tokenContractAddress": "CoNtRaCtpUbLiVaDdReSsCoNtRaCtpUbLiVaDdReSs",
+    "tokenAmountPercentToSend": 0.00001,
+    "enableLogs": true,
+    "timeBetweenTransfers": 1000 
+}
