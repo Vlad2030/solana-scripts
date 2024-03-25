@@ -1,0 +1,7 @@
+FROM node:21-slim
+
+COPY . /scripts/
+WORKDIR /scripts/
+
+RUN npm install --save typescript
+RUN npm install --save @solana/web3.js

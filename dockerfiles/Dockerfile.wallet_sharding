@@ -1,0 +1,9 @@
+FROM node:21-slim
+
+COPY . /scripts/
+WORKDIR /scripts/
+
+RUN npm install --save typescript
+RUN npm install --save @solana/web3.js
+RUN npm install --save @solana/spl-token
+RUN npm install --save @metaplex-foundation/mpl-token-metadata
